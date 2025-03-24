@@ -4,9 +4,13 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
+function countVowels (string){
 
+}
 
 // Invoca la funzione qui e stampa il risultato in console
+let numbersVowels = countVowels(word);
+console.log(numbersVowels);
 
 
 
