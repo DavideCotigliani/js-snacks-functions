@@ -4,8 +4,12 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function newArray(string){
-return string.map (name => name[0].toUpperCase());
+
+// function newArray(string){
+// return string.map (name => name[0].toUpperCase());
+// }
+const newArray = (string) => {
+    return string.map (name => name[0].toUpperCase());
 }
 
 // Invoca la funzione qui e stampa il risultato in console
