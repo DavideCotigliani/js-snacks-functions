@@ -4,13 +4,13 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function newArray (string){
-    return string.map (string = string [0]);
+function newArray(string){
+return string.map (name => name[0].toUpperCase());
 }
-let firstLetter = newArray (names);
 
 // Invoca la funzione qui e stampa il risultato in console
-
+let firstLetters = newArray(names);
+console.log(firstLetters);
 
 
 //Risultato atteso: ["A", "L", "M", "A", "G", "A"]
