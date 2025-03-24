@@ -4,9 +4,11 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-function newArray(string){
-return string.startsWith("A")
-}
+
+// function newArray(string){
+// return string.startsWith("A")
+// }
+const newArray = (string) => string.startsWith("A")
 
 // Invoca la funzione qui e stampa il risultato in console
 let initials = names.filter(newArray)
