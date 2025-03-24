@@ -9,9 +9,9 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
-function greetings (string){
+const greetings = (string) => {
 
-const hours= new Date().getHours;
+    const hours= new Date().getHours;
 
 let hi;
 if(hours<13){
@@ -22,7 +22,7 @@ else if (hours<17){
     
 }
 else{
-    hi = (`Buonacena`)
+    hi = (`Buonasera`)
     
 }
 return `${hi} ${name}`;
