@@ -9,9 +9,27 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+function greetings (string){
 
+const hours= new Date().getHours;
+
+let hi;
+if(hours<13){
+    hi= (`Buongiorno`)
+}
+else if (hours<17){
+    hi = (`Buon pomeriggio`);
+    
+}
+else{
+    hi = (`Buonacena`)
+    
+}
+return `${hi} ${name}`;
+}
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(greetings(name));
 
 
 
