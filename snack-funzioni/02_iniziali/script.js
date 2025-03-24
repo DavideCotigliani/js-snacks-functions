@@ -4,7 +4,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 
 // Dichiara la funzione qui.
-
+function newArray (string){
+    return string.map (string = string [0]);
+}
+let firstLetter = newArray (names);
 
 // Invoca la funzione qui e stampa il risultato in console
 
